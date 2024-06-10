@@ -1,0 +1,19 @@
+{
+  "name": "turbo-v2-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yamatsum/turbo-v2-poc.git",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue"
+  },
+  "author": "yamatsum <sy12250@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "1.13.3"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+}

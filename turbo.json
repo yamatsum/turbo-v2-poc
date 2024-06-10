@@ -1,0 +1,13 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["NODE_ENV"],
+  "pipeline": {
+    "build": {
+      "outputs": [".next/**", "dist/**", "build/**"],
+      "dependsOn": ["^build"]
+    },
+    "dev": {
+      "cache": false
+    }
+  }
+}
