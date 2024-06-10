@@ -4,7 +4,7 @@ import type { NextRequest } from "next/server";
 export function middleware(req: NextRequest) {
   const url = req.nextUrl;
 
-  if (process.env.USE_REDIRECT) {
+  if (url.pathname === "/" && process.env.USE_REDIRECT) {
     url.pathname = "/hoge";
     return NextResponse.redirect(url);
   }
