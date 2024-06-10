@@ -14,7 +14,7 @@
   "author": "yamatsum <sy12250@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "turbo": "1.13.3"
+    "turbo": "2.0.3"
   },
   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
